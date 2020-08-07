@@ -1,0 +1,76 @@
+html{
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+
+.col1{
+    background-color: #201e1e;
+    color: rgb(248, 224, 114);
+}
+
+.banner{
+    width: 100%;
+    height: 375px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.my-4{
+    background-color: gold;
+}
+
+.img{
+    width: 220px;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+.font-1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.font-2{
+    font-family: 'Charmonman', cursive !important;
+}
+
+.space{
+    height: 55px;
+    background-color: #201e1e;
+}
+
+.bar{
+    background-color: rgb(248, 224, 100);
+    height: 4px;
+}
+
+.skill-link{
+    font-size: 30px;
+    padding: 5px;
+    color:  rgb(248, 224, 114);
+    font-weight: bold;
+}
+
+.heading{
+    font-size: 30px;
+}
+
+.skil{
+    background-color: #201e1e;
+}
+
+/*----Media Queries----*/
+@media (max-width: 768px) {
+    .banner{
+        width: 100%;
+        height: 500px;
+    }
+}
+
+@media (max-width: 425px) {
+    .banner{
+        width: 100%;
+        height: 630px;
+    }
+}
